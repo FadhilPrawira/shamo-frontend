@@ -9,7 +9,7 @@ Course from BuildWithAngga : [Kelas Online Full-Stack Laravel Flutter 2021: Buil
 git clone https://github.com/FadhilPrawira/shamo-frontend.git
 ```
 
-#### Open repository with your IDE
+### Open repository with your IDE
 
 I use Visual Studio Code.
 
@@ -18,17 +18,28 @@ cd shamo-frontend
 code .
 ```
 
-#### Get the library
+### Get the library
 
 ```shell
 flutter pub get
 ```
 
-#### Run in emulator or device
+### Run in emulator or device
 
 ```shell
 flutter run
 ```
+### Release APK
+
+```
+flutter build apk --split-per-abi
+```
+
+This command results in three APK files:
+
+- `shamo-frontend/build/app/outputs/apk/release/app-armeabi-v7a-release.apk`
+- `shamo-frontend/build/app/outputs/apk/release/app-arm64-v8a-release.apk`
+- `shamo-frontend/build/app/outputs/apk/release/app-x86_64-release.apk`
 
 ## SDK Flutter Version
 ```yaml
